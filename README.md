@@ -31,3 +31,7 @@ class FooListView(generics.ListAPIView):
     ordering_cast = {'name': Lower('name')}
 
 ```
+
+In the example above, the `name` field included in `ordering_cast` property
+will now have case-consistent ordering. `email` continues to be sorted as it
+would be when using the standard `OrderingFilter` class from filters module.
