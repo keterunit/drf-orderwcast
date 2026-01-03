@@ -4,8 +4,8 @@ from setuptools import setup
 with open('README.md') as f:
     README = f.read()
 
-VERSION = '1.0.5'
-URL = 'https://github.com/keter2002/drf-orderwcast'
+VERSION = '1.0.7'
+URL = 'https://github.com/keterunit/drf-orderwcast'
 DESCRIPTION = 'A Django REST Framework OrderingFilter like class that handles sort with casting'
 
 setup(
